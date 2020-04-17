@@ -48,12 +48,9 @@ public class Main extends JFrame {
     private final List<String> TITLES = Arrays.asList(
             "IDno", "name", "idname", "location");
     private Vector<Vector<String>> dataModel = new Vector<Vector<String>>();
-    private QueryItem IDno = new QueryItem("学号：", 10);
+    private QueryItem IDno = new QueryItem("编号：", 10);
     private QueryItem name = new QueryItem("姓名：", 10);
     private QueryItem idname = new QueryItem("性别：", 5);
-    //private QueryItem2 age = new QueryItem2("年龄自：", "到", 5);
-    //private QueryItem class_ = new QueryItem("班级：", 5);
-    //private QueryItem dept = new QueryItem("系别：", 5);
     private QueryItem location = new QueryItem("地址：", 10);
     private JButton queryBtn = new JButton("查询");
     private JButton saveBtn = new JButton("修改");
